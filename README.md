@@ -32,22 +32,39 @@ pip freeze > requirements.txt
 ```
 
 ### 2. Start Project
-  - Create project:
-  ```bash
-  django-admin startproject bestclinic /Workspace/bestclinic
-  ```
-  <!-- This command creates the required folder/files for the project-->
-  - Run local development server:
-  ```bash
-  python manage.py runserver
-  ```
+- Create project:
+```bash
+django-admin startproject bestclinic /Workspace/bestclinic
+```
+<!-- This command creates the required folder/files for the project-->
+- Run local development server:
+```bash
+python manage.py runserver
+```
 
 ### 3. Start App
-  - Create App:
+- Create App:
+```bash
+python manage.py startapp bestclinic_app
+```
+<!-- This command creates the required folder/files for the app -->
+
+### 4. Create superuser
+- Add missing tables
   ```bash
-  python manage.py startapp bestclinic_app
+  python manage.py makemigrations
   ```
-  <!-- This command creates the required folder/files for the app -->
+  <!-- This command detects changes to the database and preps Django to update the changes.
+      The updates are not applied at this point -->
+  ```bash
+  python manage.py migrate
+  ```
+  <!-- This command the migrations will take effect -->
+
+- Create superuser
+```bash
+python manage.py createsuperuser
+```
 
 ## Documentation
 [How to install Django on Windows](https://docs.djangoproject.com/en/5.2/howto/windows/)
