@@ -26,6 +26,10 @@ python -m pip install gunicorn
 ```bash
 python.exe -m pip install --upgrade pip
 ```
+- Create requirements file
+```bash
+pip freeze > requirements.txt
+```
 
 ### 2. Start Project
   - Create project:
