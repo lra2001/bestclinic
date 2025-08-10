@@ -70,3 +70,4 @@ A web platform where patients can register, schedule appointments with doctors, 
 - [How to install Django on Windows](https://docs.djangoproject.com/en/5.2/howto/windows/)
 - [Python.gitignore](https://github.com/github/gitignore/blob/main/Python.gitignore)
 - [VisualStudioCode.gitignore](https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore)
+- [w3schools - Django](https://www.w3schools.com/django/)

@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from .forms import AppointmentForm
+
 
 def home(request):
-    return render(request, 'bestclinic_app/home.html')
+    return render(request, 'home.html')
