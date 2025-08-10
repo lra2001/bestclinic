@@ -71,3 +71,5 @@ A web platform where patients can register, schedule appointments with doctors, 
 - [Python.gitignore](https://github.com/github/gitignore/blob/main/Python.gitignore)
 - [VisualStudioCode.gitignore](https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore)
 - [w3schools - Django](https://www.w3schools.com/django/)
+- [Get Started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Mockaroo - Generate Mock Data](https://www.mockaroo.com/)
