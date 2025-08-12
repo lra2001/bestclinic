@@ -73,3 +73,10 @@ A web platform where patients can register, schedule appointments with doctors, 
 - [w3schools - Django](https://www.w3schools.com/django/)
 - [Get Started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Mockaroo - Generate Mock Data](https://www.mockaroo.com/)
+
+### Images
+- [Image Resizer](https://imageresizer.com/)
+- [Create Logo](https://www.canva.com/)
+- [Convert to favicon](https://favicon.io/favicon-converter/)
+- [DeepAI - AI Image Generator](https://deepai.org/)
+- [ChatGPT - AI Image Generator](https://chatgpt.com/)
