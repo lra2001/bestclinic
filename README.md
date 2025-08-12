@@ -49,7 +49,22 @@ A web platform where patients can register, schedule appointments with doctors, 
   ```
   <!-- This command creates the required folder/files for the app -->
 
-### 4. Create superuser
+### 4. Connect to a postgreSQL database
+- Update settings.py [django Documentation - DATABASES](https://docs.djangoproject.com/en/5.2/ref/settings/#databases)
+  ```python
+  DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "mydatabase",
+        "USER": "mydatabaseuser",
+        "PASSWORD": "mypassword",
+        "HOST": "127.0.0.1",
+        "PORT": "5432",
+    }
+  }
+  ```
+
+### 5. Create superuser
 - Add missing tables
   ```bash
   python manage.py makemigrations
@@ -73,6 +88,9 @@ A web platform where patients can register, schedule appointments with doctors, 
 - [w3schools - Django](https://www.w3schools.com/django/)
 - [Get Started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Mockaroo - Generate Mock Data](https://www.mockaroo.com/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Download Node.js](https://nodejs.org/en/download)
+- [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ### Images
 - [Image Resizer](https://imageresizer.com/)
